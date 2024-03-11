@@ -1,0 +1,41 @@
+.upMovie{
+    width: 100%;
+    position: relative;
+    .upBackImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+        img{
+            width: 100%;
+            height: 90vh;
+        }
+    }
+    .upInfo{
+        position: absolute;
+        top: 23%;
+        left: 5%;
+        img{
+            box-shadow: 5px 5px 10px #333;
+        }
+    }
+    .upInfoText{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+
+        .upTitle{
+            margin-right: 30px;
+            font-size: 30px;
+            color: #fff;
+        }
+        .upRelease{
+            
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+}
